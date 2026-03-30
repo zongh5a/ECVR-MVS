@@ -1,10 +1,6 @@
-## _ECVR-MVS: Enhancing Cost Volume Representation with Window Binary Search and Ratio Laplacian Measure for Multi-View Stereo_
+## _ECVR-MVS: Enhancing Cost Volume Representation for Multi-View Stereo_
 
 ![net](assets/net.jpg "net img")
-
-* We design the Window Binary Search (WBS) method, which chooses binary windows with the highest probability along the sampled depth planes as the sampling regions for the next stage. Ensuring the cost volume is built on more beneficial depth planes to improve availability.
-* We encode ground truth (GT) with the proposed Two-hot method to supervise the probability volumes associated with WBS. This approach ensures that depth planes closer to the actual depth have higher probabilities, aligning better with actual matching patterns.
-* We introduce the Ratio Laplacian Measure for feature volume aggregation, achieving a view-weighted point similarity measure to improve the matching results of the multi-view features.
 
 ### Data Preparation
 Our work mainly uses [DTU](https://roboimagedata.compute.dtu.dk/), [BlendedMVS](https://github.com/YoYo000/BlendedMVS/), and [Tanks and Temples](https://www.tanksandtemples.org/) datasets to train and evaluate our models. 
