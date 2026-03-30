@@ -97,7 +97,7 @@ python dypcd.py
 #### DTU dataset (Single NVIDIA GeForce RTX 3090)
 | Acc(mm) |  Comp(mm)  | Overall(mm) | Time(s/view) | Memory(GB) |
 |:-------:|:----------:|:-----------:|:------------:|:----------:|
-|  0.339  |    0.245   |    0.292    |    0.255     |    2.97    |
+|  0.339  |    0.245   |    0.292    |    0.260     |    2.94    |
 
 #### Tanks and Temples - Intermediate
 | Fam.  | Fra.  | Hor.  | Lig.  | M60   | Pan.  | Pla.  | Tra.  | Mean↑ | 
